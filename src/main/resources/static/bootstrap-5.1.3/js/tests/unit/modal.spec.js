@@ -1,9 +1,9 @@
-import Modal from '../../src/modal'
-import EventHandler from '../../src/dom/event-handler'
-import ScrollBarHelper from '../../src/util/scrollbar'
+import Modal from '../../src/modal.js'
+import EventHandler from '../../src/dom/event-handler.js'
+import ScrollBarHelper from '../../src/util/scrollbar.js'
 
 /** Test helpers */
-import { clearBodyAndDocument, clearFixture, createEvent, getFixture, jQueryMock } from '../helpers/fixture'
+import { clearBodyAndDocument, clearFixture, createEvent, getFixture, jQueryMock } from '../helpers/fixture.js'
 
 describe('Modal', () => {
   let fixtureEl

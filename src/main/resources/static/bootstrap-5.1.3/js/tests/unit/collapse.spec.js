@@ -1,8 +1,8 @@
-import Collapse from '../../src/collapse'
-import EventHandler from '../../src/dom/event-handler'
+import Collapse from '../../src/collapse.js'
+import EventHandler from '../../src/dom/event-handler.js'
 
 /** Test helpers */
-import { clearFixture, getFixture, jQueryMock } from '../helpers/fixture'
+import { clearFixture, getFixture, jQueryMock } from '../helpers/fixture.js'
 
 describe('Collapse', () => {
   let fixtureEl

@@ -1,7 +1,7 @@
-import * as Util from '../../../src/util/index'
+import * as Util from '../../../src/util/index.js'
 
 /** Test helpers */
-import { clearFixture, getFixture } from '../../helpers/fixture'
+import { clearFixture, getFixture } from '../../helpers/fixture.js'
 
 describe('Util', () => {
   let fixtureEl
