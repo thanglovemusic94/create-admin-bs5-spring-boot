@@ -1,9 +1,9 @@
-import Carousel from '../../src/carousel'
-import EventHandler from '../../src/dom/event-handler'
+import Carousel from '../../src/carousel.js'
+import EventHandler from '../../src/dom/event-handler.js'
 
 /** Test helpers */
-import { clearFixture, createEvent, getFixture, jQueryMock } from '../helpers/fixture'
-import * as util from '../../src/util'
+import { clearFixture, createEvent, getFixture, jQueryMock } from '../helpers/fixture.js'
+import * as util from '../../src/util.js'
 
 describe('Carousel', () => {
   const { Simulator, PointerEvent } = window
